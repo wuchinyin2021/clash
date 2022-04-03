@@ -5,759 +5,796 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲(开眼看世界), server: 152.89.160.61, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: 欧洲(开眼看世界) 2, server: 152.89.160.61, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
-  - {name: 欧洲(开眼看世界) 3, server: 152.89.160.61, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: 欧洲(开眼看世界) 4, server: 152.89.160.61, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: 欧洲(开眼看世界) 5, server: 152.89.160.61, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界), server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 2, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界), server: 134.195.196.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 2, server: v2.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 3, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(开眼看世界) 6, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(开眼看世界) 7, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇷🇺 俄罗斯(开眼看世界), server: t4.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t4.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港(开眼看世界), server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 3, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(开眼看世界) 8, server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 4, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 4, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 5, server: 134.195.196.179, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(开眼看世界) 9, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 5, server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 6, server: 134.195.196.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 7, server: 134.195.196.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 8, server: 134.195.196.202, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 6, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 9, server: 134.195.196.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 10, server: 134.195.196.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(开眼看世界) 10, server: inapus.mooncloud.bike, port: 10020, type: vmess, uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 11, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 7, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 8, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 12, server: 134.195.196.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇰🇷 韩国(开眼看世界), server: 14.36.250.126, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 9, server: 156.146.33.74, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 10, server: v2.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 11, server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇷🇺 俄罗斯(开眼看世界) 2, server: t2.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t2.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 欧洲(开眼看世界) 11, server: 130.61.120.243, port: 443, type: vmess, uuid: 2974ec92-79ff-42de-9ceb-e917bd25b405, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /114514, ws-headers: {Host: v2.leftvalues.xyz}, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 13, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 14, server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 12, server: 156.146.33.74, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 15, server: 134.195.196.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(开眼看世界) 12, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 16, server: 134.195.196.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇫🇷 法国(开眼看世界), server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇫🇷 法国(开眼看世界) 2, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(开眼看世界) 13, server: 1.transit.t.qjnodeip.xyz, port: 62329, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /usa1Z, ws-headers: {Host: usa03.dadwff.xyz}, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 13, server: 156.146.33.74, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 14, server: 156.146.33.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 15, server: 156.146.33.74, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
-  - {name: 🇷🇺 俄罗斯(开眼看世界) 3, server: t5.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t5.ssrsub.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 16, server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(开眼看世界) 14, server: 37.19.211.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 17, server: 134.195.196.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(开眼看世界) 15, server: 37.19.211.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 18, server: 134.195.196.214, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(开眼看世界) 16, server: 134.195.196.179, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 19, server: 134.195.196.179, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 20, server: 134.195.196.179, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 21, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 17, server: 45.87.214.253, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: 欧洲(开眼看世界) 17, server: 37.19.211.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: 欧洲(开眼看世界) 18, server: 134.195.196.179, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(开眼看世界) 19, server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 18, server: 45.87.214.253, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 19, server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.237.214}, udp: true}
-  - {name: 欧洲(开眼看世界) 20, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 22, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(开眼看世界) 21, server: 37.19.211.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
-  - {name: 🇷🇺 俄罗斯(开眼看世界) 4, server: v4.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 欧洲(开眼看世界) 22, server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 23, server: 134.195.196.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(开眼看世界) 23, server: 37.19.211.117, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
-  - {name: 🇷🇺 俄罗斯(开眼看世界) 5, server: v4.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 🇺🇲 美国(开眼看世界) 20, server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(开眼看世界) 24, server: 37.19.211.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 24, server: 134.195.196.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇮🇹 意大利(开眼看世界), server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
-  - {name: 欧洲(开眼看世界) 25, server: 37.19.211.117, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: 欧洲(开眼看世界) 26, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 欧洲(开眼看世界) 27, server: 152.89.160.61, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
-  - {name: 罗马(开眼看世界), server: 152.89.160.61, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: 欧洲(开眼看世界) 28, server: 152.89.160.61, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: 罗马(开眼看世界) 2, server: 152.89.160.61, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
-  - {name: 欧洲(开眼看世界) 29, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇨🇦 加拿大(开眼看世界) 25, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(开眼看世界) 30, server: 152.89.160.61, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: 🇷🇺 俄罗斯(乌克兰万岁！), server: 139.227.223.3, port: 60013, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇷🇺 俄罗斯(乌克兰万岁！) 2, server: 139.227.222.202, port: 60014, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇷🇺 俄罗斯(乌克兰万岁！) 3, server: 139.227.222.202, port: 60021, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇰🇷 韩国(乌克兰万岁！), server: 223.166.157.41, port: 60018, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇰🇷 韩国(乌克兰万岁！) 2, server: 139.227.223.3, port: 60017, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇰🇷 韩国(乌克兰万岁！) 3, server: 139.227.222.202, port: 60018, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 美国(乌克兰万岁！), server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国(乌克兰万岁！) 2, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
+  - {name: 🇺🇸 美国(乌克兰万岁！) 3, server: 223.166.157.192, port: 60016, type: vmess, uuid: e487b139-f286-3593-b763-d740c2096a0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 美国(乌克兰万岁！) 4, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(乌克兰万岁！) 5, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国(乌克兰万岁！) 6, server: 167.88.63.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国(乌克兰万岁！) 7, server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 154.23.190.162}}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！), server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 2, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 3, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 4, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 5, server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 6, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 7, server: 134.195.196.51, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 8, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 9, server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 10, server: 45.79.121.117, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 11, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk567.fans8.xyz}}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 12, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 13, server: 211.99.115.25, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 14, server: 42.157.161.50, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 15, server: 211.99.115.25, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 16, server: 211.99.115.10, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 17, server: 211.99.115.9, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 18, server: 211.99.115.3, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 19, server: 211.99.115.10, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 20, server: 211.99.115.22, port: 11405, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 21, server: 211.99.115.18, port: 11751, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 22, server: 211.99.115.19, port: 11853, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 23, server: 42.157.161.43, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 24, server: 211.99.115.14, port: 11451, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 25, server: 211.99.115.20, port: 11853, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 26, server: 211.99.115.8, port: 11601, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 27, server: 211.99.115.11, port: 11105, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 28, server: 211.99.115.18, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 29, server: 42.157.161.38, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 30, server: 211.99.115.11, port: 11351, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 31, server: 211.99.115.22, port: 11903, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 32, server: 42.157.161.53, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 33, server: 211.99.115.8, port: 11404, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 34, server: 211.99.115.11, port: 11851, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 35, server: 211.99.115.14, port: 11601, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 36, server: 211.99.115.10, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 37, server: 211.99.115.20, port: 11406, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 38, server: 211.99.115.15, port: 11405, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 39, server: 211.99.115.8, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 40, server: 211.99.115.10, port: 11501, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 41, server: 211.99.115.23, port: 11406, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 42, server: 211.99.115.21, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 43, server: 42.157.161.42, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 44, server: 211.99.115.19, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 45, server: 211.99.115.25, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 46, server: 211.99.115.16, port: 11401, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 47, server: 42.157.161.39, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 48, server: 211.99.115.25, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 49, server: 211.99.115.10, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 50, server: 42.157.161.41, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 51, server: 42.157.161.38, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 52, server: 42.157.161.48, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 53, server: 42.157.161.38, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 54, server: 211.99.115.18, port: 11112, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 55, server: 211.99.115.15, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 56, server: 211.99.115.18, port: 11904, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 57, server: 42.157.161.43, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 58, server: 42.157.161.47, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 59, server: 211.99.115.20, port: 11113, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 60, server: 42.157.161.42, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 61, server: 211.99.115.21, port: 11106, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 62, server: 42.157.161.52, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 63, server: 42.157.161.49, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 64, server: 211.99.115.21, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 65, server: 211.99.115.10, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 66, server: 42.157.161.44, port: 11217, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 67, server: 211.99.115.13, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 68, server: 211.99.115.14, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 69, server: 211.99.115.21, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 70, server: 211.99.115.9, port: 11102, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 71, server: 211.99.115.14, port: 11112, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 72, server: 42.157.161.42, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 73, server: 42.157.161.50, port: 11218, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 74, server: 211.99.115.10, port: 11101, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 75, server: 42.157.161.49, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 76, server: 42.157.161.39, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 77, server: 211.99.115.21, port: 11103, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 78, server: 42.157.161.38, port: 11211, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 79, server: 211.99.115.21, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 80, server: 211.99.115.3, port: 11106, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 81, server: 42.157.161.44, port: 11213, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 82, server: 42.157.161.41, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 83, server: 211.99.115.20, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 84, server: 42.157.161.39, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 85, server: 42.157.161.49, port: 11212, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 86, server: 42.157.161.40, port: 11215, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 87, server: 42.157.161.47, port: 11210, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 88, server: 42.157.161.43, port: 11209, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 89, server: 42.157.161.50, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇪🇺 欧洲(乌克兰万岁！) 90, server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇯🇵 日本(乌克兰万岁！), server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0320jp.fans8.xyz}}
+  - {name: 🇭🇰 香港(乌克兰万岁！), server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇭🇰 香港(乌克兰万岁！) 2, server: 211.99.115.24, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
+  - {name: 🇭🇰 香港(乌克兰万岁！) 3, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(开眼看世界)
-      - 欧洲(开眼看世界) 2
-      - 欧洲(开眼看世界) 3
-      - 欧洲(开眼看世界) 4
-      - 欧洲(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界) 3
-      - 欧洲(开眼看世界) 6
-      - 欧洲(开眼看世界) 7
-      - 🇷🇺 俄罗斯(开眼看世界)
-      - 🇭🇰 香港(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 3
-      - 欧洲(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 4
-      - 🇺🇲 美国(开眼看世界) 4
-      - 🇨🇦 加拿大(开眼看世界) 5
-      - 欧洲(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 7
-      - 🇨🇦 加拿大(开眼看世界) 8
-      - 🇺🇲 美国(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 9
-      - 🇨🇦 加拿大(开眼看世界) 10
-      - 欧洲(开眼看世界) 10
-      - 🇨🇦 加拿大(开眼看世界) 11
-      - 🇺🇲 美国(开眼看世界) 7
-      - 🇺🇲 美国(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 12
-      - 🇰🇷 韩国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 10
-      - 🇺🇲 美国(开眼看世界) 11
-      - 🇷🇺 俄罗斯(开眼看世界) 2
-      - 欧洲(开眼看世界) 11
-      - 🇨🇦 加拿大(开眼看世界) 13
-      - 🇨🇦 加拿大(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 15
-      - 欧洲(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 16
-      - 🇫🇷 法国(开眼看世界)
-      - 🇫🇷 法国(开眼看世界) 2
-      - 欧洲(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 15
-      - 🇷🇺 俄罗斯(开眼看世界) 3
-      - 🇺🇲 美国(开眼看世界) 16
-      - 欧洲(开眼看世界) 14
-      - 🇨🇦 加拿大(开眼看世界) 17
-      - 欧洲(开眼看世界) 15
-      - 🇨🇦 加拿大(开眼看世界) 18
-      - 欧洲(开眼看世界) 16
-      - 🇨🇦 加拿大(开眼看世界) 19
-      - 🇨🇦 加拿大(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 21
-      - 🇺🇲 美国(开眼看世界) 17
-      - 欧洲(开眼看世界) 17
-      - 欧洲(开眼看世界) 18
-      - 欧洲(开眼看世界) 19
-      - 🇺🇲 美国(开眼看世界) 18
-      - 🇺🇲 美国(开眼看世界) 19
-      - 欧洲(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 22
-      - 欧洲(开眼看世界) 21
-      - 🇷🇺 俄罗斯(开眼看世界) 4
-      - 欧洲(开眼看世界) 22
-      - 🇨🇦 加拿大(开眼看世界) 23
-      - 欧洲(开眼看世界) 23
-      - 🇷🇺 俄罗斯(开眼看世界) 5
-      - 🇺🇲 美国(开眼看世界) 20
-      - 欧洲(开眼看世界) 24
-      - 🇨🇦 加拿大(开眼看世界) 24
-      - 🇮🇹 意大利(开眼看世界)
-      - 欧洲(开眼看世界) 25
-      - 欧洲(开眼看世界) 26
-      - 欧洲(开眼看世界) 27
-      - 罗马(开眼看世界)
-      - 欧洲(开眼看世界) 28
-      - 罗马(开眼看世界) 2
-      - 欧洲(开眼看世界) 29
-      - 🇨🇦 加拿大(开眼看世界) 25
-      - 欧洲(开眼看世界) 30
+      - 🇷🇺 俄罗斯(乌克兰万岁！)
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 2
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 3
+      - 🇰🇷 韩国(乌克兰万岁！)
+      - 🇰🇷 韩国(乌克兰万岁！) 2
+      - 🇰🇷 韩国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！)
+      - 🇺🇸 美国(乌克兰万岁！) 2
+      - 🇺🇸 美国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！) 4
+      - 🇺🇸 美国(乌克兰万岁！) 5
+      - 🇺🇸 美国(乌克兰万岁！) 6
+      - 🇺🇸 美国(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！)
+      - 🇪🇺 欧洲(乌克兰万岁！) 2
+      - 🇪🇺 欧洲(乌克兰万岁！) 3
+      - 🇪🇺 欧洲(乌克兰万岁！) 4
+      - 🇪🇺 欧洲(乌克兰万岁！) 5
+      - 🇪🇺 欧洲(乌克兰万岁！) 6
+      - 🇪🇺 欧洲(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！) 8
+      - 🇪🇺 欧洲(乌克兰万岁！) 9
+      - 🇪🇺 欧洲(乌克兰万岁！) 10
+      - 🇪🇺 欧洲(乌克兰万岁！) 11
+      - 🇪🇺 欧洲(乌克兰万岁！) 12
+      - 🇪🇺 欧洲(乌克兰万岁！) 13
+      - 🇪🇺 欧洲(乌克兰万岁！) 14
+      - 🇪🇺 欧洲(乌克兰万岁！) 15
+      - 🇪🇺 欧洲(乌克兰万岁！) 16
+      - 🇪🇺 欧洲(乌克兰万岁！) 17
+      - 🇪🇺 欧洲(乌克兰万岁！) 18
+      - 🇪🇺 欧洲(乌克兰万岁！) 19
+      - 🇪🇺 欧洲(乌克兰万岁！) 20
+      - 🇪🇺 欧洲(乌克兰万岁！) 21
+      - 🇪🇺 欧洲(乌克兰万岁！) 22
+      - 🇪🇺 欧洲(乌克兰万岁！) 23
+      - 🇪🇺 欧洲(乌克兰万岁！) 24
+      - 🇪🇺 欧洲(乌克兰万岁！) 25
+      - 🇪🇺 欧洲(乌克兰万岁！) 26
+      - 🇪🇺 欧洲(乌克兰万岁！) 27
+      - 🇪🇺 欧洲(乌克兰万岁！) 28
+      - 🇪🇺 欧洲(乌克兰万岁！) 29
+      - 🇪🇺 欧洲(乌克兰万岁！) 30
+      - 🇪🇺 欧洲(乌克兰万岁！) 31
+      - 🇪🇺 欧洲(乌克兰万岁！) 32
+      - 🇪🇺 欧洲(乌克兰万岁！) 33
+      - 🇪🇺 欧洲(乌克兰万岁！) 34
+      - 🇪🇺 欧洲(乌克兰万岁！) 35
+      - 🇪🇺 欧洲(乌克兰万岁！) 36
+      - 🇪🇺 欧洲(乌克兰万岁！) 37
+      - 🇪🇺 欧洲(乌克兰万岁！) 38
+      - 🇪🇺 欧洲(乌克兰万岁！) 39
+      - 🇪🇺 欧洲(乌克兰万岁！) 40
+      - 🇪🇺 欧洲(乌克兰万岁！) 41
+      - 🇪🇺 欧洲(乌克兰万岁！) 42
+      - 🇪🇺 欧洲(乌克兰万岁！) 43
+      - 🇪🇺 欧洲(乌克兰万岁！) 44
+      - 🇪🇺 欧洲(乌克兰万岁！) 45
+      - 🇪🇺 欧洲(乌克兰万岁！) 46
+      - 🇪🇺 欧洲(乌克兰万岁！) 47
+      - 🇪🇺 欧洲(乌克兰万岁！) 48
+      - 🇪🇺 欧洲(乌克兰万岁！) 49
+      - 🇪🇺 欧洲(乌克兰万岁！) 50
+      - 🇪🇺 欧洲(乌克兰万岁！) 51
+      - 🇪🇺 欧洲(乌克兰万岁！) 52
+      - 🇪🇺 欧洲(乌克兰万岁！) 53
+      - 🇪🇺 欧洲(乌克兰万岁！) 54
+      - 🇪🇺 欧洲(乌克兰万岁！) 55
+      - 🇪🇺 欧洲(乌克兰万岁！) 56
+      - 🇪🇺 欧洲(乌克兰万岁！) 57
+      - 🇪🇺 欧洲(乌克兰万岁！) 58
+      - 🇪🇺 欧洲(乌克兰万岁！) 59
+      - 🇪🇺 欧洲(乌克兰万岁！) 60
+      - 🇪🇺 欧洲(乌克兰万岁！) 61
+      - 🇪🇺 欧洲(乌克兰万岁！) 62
+      - 🇪🇺 欧洲(乌克兰万岁！) 63
+      - 🇪🇺 欧洲(乌克兰万岁！) 64
+      - 🇪🇺 欧洲(乌克兰万岁！) 65
+      - 🇪🇺 欧洲(乌克兰万岁！) 66
+      - 🇪🇺 欧洲(乌克兰万岁！) 67
+      - 🇪🇺 欧洲(乌克兰万岁！) 68
+      - 🇪🇺 欧洲(乌克兰万岁！) 69
+      - 🇪🇺 欧洲(乌克兰万岁！) 70
+      - 🇪🇺 欧洲(乌克兰万岁！) 71
+      - 🇪🇺 欧洲(乌克兰万岁！) 72
+      - 🇪🇺 欧洲(乌克兰万岁！) 73
+      - 🇪🇺 欧洲(乌克兰万岁！) 74
+      - 🇪🇺 欧洲(乌克兰万岁！) 75
+      - 🇪🇺 欧洲(乌克兰万岁！) 76
+      - 🇪🇺 欧洲(乌克兰万岁！) 77
+      - 🇪🇺 欧洲(乌克兰万岁！) 78
+      - 🇪🇺 欧洲(乌克兰万岁！) 79
+      - 🇪🇺 欧洲(乌克兰万岁！) 80
+      - 🇪🇺 欧洲(乌克兰万岁！) 81
+      - 🇪🇺 欧洲(乌克兰万岁！) 82
+      - 🇪🇺 欧洲(乌克兰万岁！) 83
+      - 🇪🇺 欧洲(乌克兰万岁！) 84
+      - 🇪🇺 欧洲(乌克兰万岁！) 85
+      - 🇪🇺 欧洲(乌克兰万岁！) 86
+      - 🇪🇺 欧洲(乌克兰万岁！) 87
+      - 🇪🇺 欧洲(乌克兰万岁！) 88
+      - 🇪🇺 欧洲(乌克兰万岁！) 89
+      - 🇪🇺 欧洲(乌克兰万岁！) 90
+      - 🇯🇵 日本(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！) 2
+      - 🇭🇰 香港(乌克兰万岁！) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 欧洲(开眼看世界)
-      - 欧洲(开眼看世界) 2
-      - 欧洲(开眼看世界) 3
-      - 欧洲(开眼看世界) 4
-      - 欧洲(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界) 3
-      - 欧洲(开眼看世界) 6
-      - 欧洲(开眼看世界) 7
-      - 🇷🇺 俄罗斯(开眼看世界)
-      - 🇭🇰 香港(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 3
-      - 欧洲(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 4
-      - 🇺🇲 美国(开眼看世界) 4
-      - 🇨🇦 加拿大(开眼看世界) 5
-      - 欧洲(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 7
-      - 🇨🇦 加拿大(开眼看世界) 8
-      - 🇺🇲 美国(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 9
-      - 🇨🇦 加拿大(开眼看世界) 10
-      - 欧洲(开眼看世界) 10
-      - 🇨🇦 加拿大(开眼看世界) 11
-      - 🇺🇲 美国(开眼看世界) 7
-      - 🇺🇲 美国(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 12
-      - 🇰🇷 韩国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 10
-      - 🇺🇲 美国(开眼看世界) 11
-      - 🇷🇺 俄罗斯(开眼看世界) 2
-      - 欧洲(开眼看世界) 11
-      - 🇨🇦 加拿大(开眼看世界) 13
-      - 🇨🇦 加拿大(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 15
-      - 欧洲(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 16
-      - 🇫🇷 法国(开眼看世界)
-      - 🇫🇷 法国(开眼看世界) 2
-      - 欧洲(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 15
-      - 🇷🇺 俄罗斯(开眼看世界) 3
-      - 🇺🇲 美国(开眼看世界) 16
-      - 欧洲(开眼看世界) 14
-      - 🇨🇦 加拿大(开眼看世界) 17
-      - 欧洲(开眼看世界) 15
-      - 🇨🇦 加拿大(开眼看世界) 18
-      - 欧洲(开眼看世界) 16
-      - 🇨🇦 加拿大(开眼看世界) 19
-      - 🇨🇦 加拿大(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 21
-      - 🇺🇲 美国(开眼看世界) 17
-      - 欧洲(开眼看世界) 17
-      - 欧洲(开眼看世界) 18
-      - 欧洲(开眼看世界) 19
-      - 🇺🇲 美国(开眼看世界) 18
-      - 🇺🇲 美国(开眼看世界) 19
-      - 欧洲(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 22
-      - 欧洲(开眼看世界) 21
-      - 🇷🇺 俄罗斯(开眼看世界) 4
-      - 欧洲(开眼看世界) 22
-      - 🇨🇦 加拿大(开眼看世界) 23
-      - 欧洲(开眼看世界) 23
-      - 🇷🇺 俄罗斯(开眼看世界) 5
-      - 🇺🇲 美国(开眼看世界) 20
-      - 欧洲(开眼看世界) 24
-      - 🇨🇦 加拿大(开眼看世界) 24
-      - 🇮🇹 意大利(开眼看世界)
-      - 欧洲(开眼看世界) 25
-      - 欧洲(开眼看世界) 26
-      - 欧洲(开眼看世界) 27
-      - 罗马(开眼看世界)
-      - 欧洲(开眼看世界) 28
-      - 罗马(开眼看世界) 2
-      - 欧洲(开眼看世界) 29
-      - 🇨🇦 加拿大(开眼看世界) 25
-      - 欧洲(开眼看世界) 30
-  - name: 🎥 NETFLIX
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 欧洲(开眼看世界)
-      - 欧洲(开眼看世界) 2
-      - 欧洲(开眼看世界) 3
-      - 欧洲(开眼看世界) 4
-      - 欧洲(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界) 3
-      - 欧洲(开眼看世界) 6
-      - 欧洲(开眼看世界) 7
-      - 🇷🇺 俄罗斯(开眼看世界)
-      - 🇭🇰 香港(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 3
-      - 欧洲(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 4
-      - 🇺🇲 美国(开眼看世界) 4
-      - 🇨🇦 加拿大(开眼看世界) 5
-      - 欧洲(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 7
-      - 🇨🇦 加拿大(开眼看世界) 8
-      - 🇺🇲 美国(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 9
-      - 🇨🇦 加拿大(开眼看世界) 10
-      - 欧洲(开眼看世界) 10
-      - 🇨🇦 加拿大(开眼看世界) 11
-      - 🇺🇲 美国(开眼看世界) 7
-      - 🇺🇲 美国(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 12
-      - 🇰🇷 韩国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 10
-      - 🇺🇲 美国(开眼看世界) 11
-      - 🇷🇺 俄罗斯(开眼看世界) 2
-      - 欧洲(开眼看世界) 11
-      - 🇨🇦 加拿大(开眼看世界) 13
-      - 🇨🇦 加拿大(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 15
-      - 欧洲(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 16
-      - 🇫🇷 法国(开眼看世界)
-      - 🇫🇷 法国(开眼看世界) 2
-      - 欧洲(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 15
-      - 🇷🇺 俄罗斯(开眼看世界) 3
-      - 🇺🇲 美国(开眼看世界) 16
-      - 欧洲(开眼看世界) 14
-      - 🇨🇦 加拿大(开眼看世界) 17
-      - 欧洲(开眼看世界) 15
-      - 🇨🇦 加拿大(开眼看世界) 18
-      - 欧洲(开眼看世界) 16
-      - 🇨🇦 加拿大(开眼看世界) 19
-      - 🇨🇦 加拿大(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 21
-      - 🇺🇲 美国(开眼看世界) 17
-      - 欧洲(开眼看世界) 17
-      - 欧洲(开眼看世界) 18
-      - 欧洲(开眼看世界) 19
-      - 🇺🇲 美国(开眼看世界) 18
-      - 🇺🇲 美国(开眼看世界) 19
-      - 欧洲(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 22
-      - 欧洲(开眼看世界) 21
-      - 🇷🇺 俄罗斯(开眼看世界) 4
-      - 欧洲(开眼看世界) 22
-      - 🇨🇦 加拿大(开眼看世界) 23
-      - 欧洲(开眼看世界) 23
-      - 🇷🇺 俄罗斯(开眼看世界) 5
-      - 🇺🇲 美国(开眼看世界) 20
-      - 欧洲(开眼看世界) 24
-      - 🇨🇦 加拿大(开眼看世界) 24
-      - 🇮🇹 意大利(开眼看世界)
-      - 欧洲(开眼看世界) 25
-      - 欧洲(开眼看世界) 26
-      - 欧洲(开眼看世界) 27
-      - 罗马(开眼看世界)
-      - 欧洲(开眼看世界) 28
-      - 罗马(开眼看世界) 2
-      - 欧洲(开眼看世界) 29
-      - 🇨🇦 加拿大(开眼看世界) 25
-      - 欧洲(开眼看世界) 30
-  - name: ⛔️ 广告拦截
-    type: select
-    proxies:
-      - 🛑 全球拦截
-      - 🎯 全球直连
-      - 🔰 节点选择
-  - name: 🚫 运营劫持
-    type: select
-    proxies:
-      - 🛑 全球拦截
-      - 🎯 全球直连
-      - 🔰 节点选择
+      - 🇷🇺 俄罗斯(乌克兰万岁！)
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 2
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 3
+      - 🇰🇷 韩国(乌克兰万岁！)
+      - 🇰🇷 韩国(乌克兰万岁！) 2
+      - 🇰🇷 韩国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！)
+      - 🇺🇸 美国(乌克兰万岁！) 2
+      - 🇺🇸 美国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！) 4
+      - 🇺🇸 美国(乌克兰万岁！) 5
+      - 🇺🇸 美国(乌克兰万岁！) 6
+      - 🇺🇸 美国(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！)
+      - 🇪🇺 欧洲(乌克兰万岁！) 2
+      - 🇪🇺 欧洲(乌克兰万岁！) 3
+      - 🇪🇺 欧洲(乌克兰万岁！) 4
+      - 🇪🇺 欧洲(乌克兰万岁！) 5
+      - 🇪🇺 欧洲(乌克兰万岁！) 6
+      - 🇪🇺 欧洲(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！) 8
+      - 🇪🇺 欧洲(乌克兰万岁！) 9
+      - 🇪🇺 欧洲(乌克兰万岁！) 10
+      - 🇪🇺 欧洲(乌克兰万岁！) 11
+      - 🇪🇺 欧洲(乌克兰万岁！) 12
+      - 🇪🇺 欧洲(乌克兰万岁！) 13
+      - 🇪🇺 欧洲(乌克兰万岁！) 14
+      - 🇪🇺 欧洲(乌克兰万岁！) 15
+      - 🇪🇺 欧洲(乌克兰万岁！) 16
+      - 🇪🇺 欧洲(乌克兰万岁！) 17
+      - 🇪🇺 欧洲(乌克兰万岁！) 18
+      - 🇪🇺 欧洲(乌克兰万岁！) 19
+      - 🇪🇺 欧洲(乌克兰万岁！) 20
+      - 🇪🇺 欧洲(乌克兰万岁！) 21
+      - 🇪🇺 欧洲(乌克兰万岁！) 22
+      - 🇪🇺 欧洲(乌克兰万岁！) 23
+      - 🇪🇺 欧洲(乌克兰万岁！) 24
+      - 🇪🇺 欧洲(乌克兰万岁！) 25
+      - 🇪🇺 欧洲(乌克兰万岁！) 26
+      - 🇪🇺 欧洲(乌克兰万岁！) 27
+      - 🇪🇺 欧洲(乌克兰万岁！) 28
+      - 🇪🇺 欧洲(乌克兰万岁！) 29
+      - 🇪🇺 欧洲(乌克兰万岁！) 30
+      - 🇪🇺 欧洲(乌克兰万岁！) 31
+      - 🇪🇺 欧洲(乌克兰万岁！) 32
+      - 🇪🇺 欧洲(乌克兰万岁！) 33
+      - 🇪🇺 欧洲(乌克兰万岁！) 34
+      - 🇪🇺 欧洲(乌克兰万岁！) 35
+      - 🇪🇺 欧洲(乌克兰万岁！) 36
+      - 🇪🇺 欧洲(乌克兰万岁！) 37
+      - 🇪🇺 欧洲(乌克兰万岁！) 38
+      - 🇪🇺 欧洲(乌克兰万岁！) 39
+      - 🇪🇺 欧洲(乌克兰万岁！) 40
+      - 🇪🇺 欧洲(乌克兰万岁！) 41
+      - 🇪🇺 欧洲(乌克兰万岁！) 42
+      - 🇪🇺 欧洲(乌克兰万岁！) 43
+      - 🇪🇺 欧洲(乌克兰万岁！) 44
+      - 🇪🇺 欧洲(乌克兰万岁！) 45
+      - 🇪🇺 欧洲(乌克兰万岁！) 46
+      - 🇪🇺 欧洲(乌克兰万岁！) 47
+      - 🇪🇺 欧洲(乌克兰万岁！) 48
+      - 🇪🇺 欧洲(乌克兰万岁！) 49
+      - 🇪🇺 欧洲(乌克兰万岁！) 50
+      - 🇪🇺 欧洲(乌克兰万岁！) 51
+      - 🇪🇺 欧洲(乌克兰万岁！) 52
+      - 🇪🇺 欧洲(乌克兰万岁！) 53
+      - 🇪🇺 欧洲(乌克兰万岁！) 54
+      - 🇪🇺 欧洲(乌克兰万岁！) 55
+      - 🇪🇺 欧洲(乌克兰万岁！) 56
+      - 🇪🇺 欧洲(乌克兰万岁！) 57
+      - 🇪🇺 欧洲(乌克兰万岁！) 58
+      - 🇪🇺 欧洲(乌克兰万岁！) 59
+      - 🇪🇺 欧洲(乌克兰万岁！) 60
+      - 🇪🇺 欧洲(乌克兰万岁！) 61
+      - 🇪🇺 欧洲(乌克兰万岁！) 62
+      - 🇪🇺 欧洲(乌克兰万岁！) 63
+      - 🇪🇺 欧洲(乌克兰万岁！) 64
+      - 🇪🇺 欧洲(乌克兰万岁！) 65
+      - 🇪🇺 欧洲(乌克兰万岁！) 66
+      - 🇪🇺 欧洲(乌克兰万岁！) 67
+      - 🇪🇺 欧洲(乌克兰万岁！) 68
+      - 🇪🇺 欧洲(乌克兰万岁！) 69
+      - 🇪🇺 欧洲(乌克兰万岁！) 70
+      - 🇪🇺 欧洲(乌克兰万岁！) 71
+      - 🇪🇺 欧洲(乌克兰万岁！) 72
+      - 🇪🇺 欧洲(乌克兰万岁！) 73
+      - 🇪🇺 欧洲(乌克兰万岁！) 74
+      - 🇪🇺 欧洲(乌克兰万岁！) 75
+      - 🇪🇺 欧洲(乌克兰万岁！) 76
+      - 🇪🇺 欧洲(乌克兰万岁！) 77
+      - 🇪🇺 欧洲(乌克兰万岁！) 78
+      - 🇪🇺 欧洲(乌克兰万岁！) 79
+      - 🇪🇺 欧洲(乌克兰万岁！) 80
+      - 🇪🇺 欧洲(乌克兰万岁！) 81
+      - 🇪🇺 欧洲(乌克兰万岁！) 82
+      - 🇪🇺 欧洲(乌克兰万岁！) 83
+      - 🇪🇺 欧洲(乌克兰万岁！) 84
+      - 🇪🇺 欧洲(乌克兰万岁！) 85
+      - 🇪🇺 欧洲(乌克兰万岁！) 86
+      - 🇪🇺 欧洲(乌克兰万岁！) 87
+      - 🇪🇺 欧洲(乌克兰万岁！) 88
+      - 🇪🇺 欧洲(乌克兰万岁！) 89
+      - 🇪🇺 欧洲(乌克兰万岁！) 90
+      - 🇯🇵 日本(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！) 2
+      - 🇭🇰 香港(乌克兰万岁！) 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(开眼看世界)
-      - 欧洲(开眼看世界) 2
-      - 欧洲(开眼看世界) 3
-      - 欧洲(开眼看世界) 4
-      - 欧洲(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界) 3
-      - 欧洲(开眼看世界) 6
-      - 欧洲(开眼看世界) 7
-      - 🇷🇺 俄罗斯(开眼看世界)
-      - 🇭🇰 香港(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 3
-      - 欧洲(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 4
-      - 🇺🇲 美国(开眼看世界) 4
-      - 🇨🇦 加拿大(开眼看世界) 5
-      - 欧洲(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 7
-      - 🇨🇦 加拿大(开眼看世界) 8
-      - 🇺🇲 美国(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 9
-      - 🇨🇦 加拿大(开眼看世界) 10
-      - 欧洲(开眼看世界) 10
-      - 🇨🇦 加拿大(开眼看世界) 11
-      - 🇺🇲 美国(开眼看世界) 7
-      - 🇺🇲 美国(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 12
-      - 🇰🇷 韩国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 10
-      - 🇺🇲 美国(开眼看世界) 11
-      - 🇷🇺 俄罗斯(开眼看世界) 2
-      - 欧洲(开眼看世界) 11
-      - 🇨🇦 加拿大(开眼看世界) 13
-      - 🇨🇦 加拿大(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 15
-      - 欧洲(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 16
-      - 🇫🇷 法国(开眼看世界)
-      - 🇫🇷 法国(开眼看世界) 2
-      - 欧洲(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 15
-      - 🇷🇺 俄罗斯(开眼看世界) 3
-      - 🇺🇲 美国(开眼看世界) 16
-      - 欧洲(开眼看世界) 14
-      - 🇨🇦 加拿大(开眼看世界) 17
-      - 欧洲(开眼看世界) 15
-      - 🇨🇦 加拿大(开眼看世界) 18
-      - 欧洲(开眼看世界) 16
-      - 🇨🇦 加拿大(开眼看世界) 19
-      - 🇨🇦 加拿大(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 21
-      - 🇺🇲 美国(开眼看世界) 17
-      - 欧洲(开眼看世界) 17
-      - 欧洲(开眼看世界) 18
-      - 欧洲(开眼看世界) 19
-      - 🇺🇲 美国(开眼看世界) 18
-      - 🇺🇲 美国(开眼看世界) 19
-      - 欧洲(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 22
-      - 欧洲(开眼看世界) 21
-      - 🇷🇺 俄罗斯(开眼看世界) 4
-      - 欧洲(开眼看世界) 22
-      - 🇨🇦 加拿大(开眼看世界) 23
-      - 欧洲(开眼看世界) 23
-      - 🇷🇺 俄罗斯(开眼看世界) 5
-      - 🇺🇲 美国(开眼看世界) 20
-      - 欧洲(开眼看世界) 24
-      - 🇨🇦 加拿大(开眼看世界) 24
-      - 🇮🇹 意大利(开眼看世界)
-      - 欧洲(开眼看世界) 25
-      - 欧洲(开眼看世界) 26
-      - 欧洲(开眼看世界) 27
-      - 罗马(开眼看世界)
-      - 欧洲(开眼看世界) 28
-      - 罗马(开眼看世界) 2
-      - 欧洲(开眼看世界) 29
-      - 🇨🇦 加拿大(开眼看世界) 25
-      - 欧洲(开眼看世界) 30
+      - 🇷🇺 俄罗斯(乌克兰万岁！)
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 2
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 3
+      - 🇰🇷 韩国(乌克兰万岁！)
+      - 🇰🇷 韩国(乌克兰万岁！) 2
+      - 🇰🇷 韩国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！)
+      - 🇺🇸 美国(乌克兰万岁！) 2
+      - 🇺🇸 美国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！) 4
+      - 🇺🇸 美国(乌克兰万岁！) 5
+      - 🇺🇸 美国(乌克兰万岁！) 6
+      - 🇺🇸 美国(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！)
+      - 🇪🇺 欧洲(乌克兰万岁！) 2
+      - 🇪🇺 欧洲(乌克兰万岁！) 3
+      - 🇪🇺 欧洲(乌克兰万岁！) 4
+      - 🇪🇺 欧洲(乌克兰万岁！) 5
+      - 🇪🇺 欧洲(乌克兰万岁！) 6
+      - 🇪🇺 欧洲(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！) 8
+      - 🇪🇺 欧洲(乌克兰万岁！) 9
+      - 🇪🇺 欧洲(乌克兰万岁！) 10
+      - 🇪🇺 欧洲(乌克兰万岁！) 11
+      - 🇪🇺 欧洲(乌克兰万岁！) 12
+      - 🇪🇺 欧洲(乌克兰万岁！) 13
+      - 🇪🇺 欧洲(乌克兰万岁！) 14
+      - 🇪🇺 欧洲(乌克兰万岁！) 15
+      - 🇪🇺 欧洲(乌克兰万岁！) 16
+      - 🇪🇺 欧洲(乌克兰万岁！) 17
+      - 🇪🇺 欧洲(乌克兰万岁！) 18
+      - 🇪🇺 欧洲(乌克兰万岁！) 19
+      - 🇪🇺 欧洲(乌克兰万岁！) 20
+      - 🇪🇺 欧洲(乌克兰万岁！) 21
+      - 🇪🇺 欧洲(乌克兰万岁！) 22
+      - 🇪🇺 欧洲(乌克兰万岁！) 23
+      - 🇪🇺 欧洲(乌克兰万岁！) 24
+      - 🇪🇺 欧洲(乌克兰万岁！) 25
+      - 🇪🇺 欧洲(乌克兰万岁！) 26
+      - 🇪🇺 欧洲(乌克兰万岁！) 27
+      - 🇪🇺 欧洲(乌克兰万岁！) 28
+      - 🇪🇺 欧洲(乌克兰万岁！) 29
+      - 🇪🇺 欧洲(乌克兰万岁！) 30
+      - 🇪🇺 欧洲(乌克兰万岁！) 31
+      - 🇪🇺 欧洲(乌克兰万岁！) 32
+      - 🇪🇺 欧洲(乌克兰万岁！) 33
+      - 🇪🇺 欧洲(乌克兰万岁！) 34
+      - 🇪🇺 欧洲(乌克兰万岁！) 35
+      - 🇪🇺 欧洲(乌克兰万岁！) 36
+      - 🇪🇺 欧洲(乌克兰万岁！) 37
+      - 🇪🇺 欧洲(乌克兰万岁！) 38
+      - 🇪🇺 欧洲(乌克兰万岁！) 39
+      - 🇪🇺 欧洲(乌克兰万岁！) 40
+      - 🇪🇺 欧洲(乌克兰万岁！) 41
+      - 🇪🇺 欧洲(乌克兰万岁！) 42
+      - 🇪🇺 欧洲(乌克兰万岁！) 43
+      - 🇪🇺 欧洲(乌克兰万岁！) 44
+      - 🇪🇺 欧洲(乌克兰万岁！) 45
+      - 🇪🇺 欧洲(乌克兰万岁！) 46
+      - 🇪🇺 欧洲(乌克兰万岁！) 47
+      - 🇪🇺 欧洲(乌克兰万岁！) 48
+      - 🇪🇺 欧洲(乌克兰万岁！) 49
+      - 🇪🇺 欧洲(乌克兰万岁！) 50
+      - 🇪🇺 欧洲(乌克兰万岁！) 51
+      - 🇪🇺 欧洲(乌克兰万岁！) 52
+      - 🇪🇺 欧洲(乌克兰万岁！) 53
+      - 🇪🇺 欧洲(乌克兰万岁！) 54
+      - 🇪🇺 欧洲(乌克兰万岁！) 55
+      - 🇪🇺 欧洲(乌克兰万岁！) 56
+      - 🇪🇺 欧洲(乌克兰万岁！) 57
+      - 🇪🇺 欧洲(乌克兰万岁！) 58
+      - 🇪🇺 欧洲(乌克兰万岁！) 59
+      - 🇪🇺 欧洲(乌克兰万岁！) 60
+      - 🇪🇺 欧洲(乌克兰万岁！) 61
+      - 🇪🇺 欧洲(乌克兰万岁！) 62
+      - 🇪🇺 欧洲(乌克兰万岁！) 63
+      - 🇪🇺 欧洲(乌克兰万岁！) 64
+      - 🇪🇺 欧洲(乌克兰万岁！) 65
+      - 🇪🇺 欧洲(乌克兰万岁！) 66
+      - 🇪🇺 欧洲(乌克兰万岁！) 67
+      - 🇪🇺 欧洲(乌克兰万岁！) 68
+      - 🇪🇺 欧洲(乌克兰万岁！) 69
+      - 🇪🇺 欧洲(乌克兰万岁！) 70
+      - 🇪🇺 欧洲(乌克兰万岁！) 71
+      - 🇪🇺 欧洲(乌克兰万岁！) 72
+      - 🇪🇺 欧洲(乌克兰万岁！) 73
+      - 🇪🇺 欧洲(乌克兰万岁！) 74
+      - 🇪🇺 欧洲(乌克兰万岁！) 75
+      - 🇪🇺 欧洲(乌克兰万岁！) 76
+      - 🇪🇺 欧洲(乌克兰万岁！) 77
+      - 🇪🇺 欧洲(乌克兰万岁！) 78
+      - 🇪🇺 欧洲(乌克兰万岁！) 79
+      - 🇪🇺 欧洲(乌克兰万岁！) 80
+      - 🇪🇺 欧洲(乌克兰万岁！) 81
+      - 🇪🇺 欧洲(乌克兰万岁！) 82
+      - 🇪🇺 欧洲(乌克兰万岁！) 83
+      - 🇪🇺 欧洲(乌克兰万岁！) 84
+      - 🇪🇺 欧洲(乌克兰万岁！) 85
+      - 🇪🇺 欧洲(乌克兰万岁！) 86
+      - 🇪🇺 欧洲(乌克兰万岁！) 87
+      - 🇪🇺 欧洲(乌克兰万岁！) 88
+      - 🇪🇺 欧洲(乌克兰万岁！) 89
+      - 🇪🇺 欧洲(乌克兰万岁！) 90
+      - 🇯🇵 日本(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！) 2
+      - 🇭🇰 香港(乌克兰万岁！) 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港(开眼看世界)
+      - 🇭🇰 香港(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！) 2
+      - 🇭🇰 香港(乌克兰万岁！) 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 欧洲(开眼看世界)
-      - 欧洲(开眼看世界) 2
-      - 欧洲(开眼看世界) 3
-      - 欧洲(开眼看世界) 4
-      - 欧洲(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界) 3
-      - 欧洲(开眼看世界) 6
-      - 欧洲(开眼看世界) 7
-      - 🇷🇺 俄罗斯(开眼看世界)
-      - 🇭🇰 香港(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 3
-      - 欧洲(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 4
-      - 🇺🇲 美国(开眼看世界) 4
-      - 🇨🇦 加拿大(开眼看世界) 5
-      - 欧洲(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 7
-      - 🇨🇦 加拿大(开眼看世界) 8
-      - 🇺🇲 美国(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 9
-      - 🇨🇦 加拿大(开眼看世界) 10
-      - 欧洲(开眼看世界) 10
-      - 🇨🇦 加拿大(开眼看世界) 11
-      - 🇺🇲 美国(开眼看世界) 7
-      - 🇺🇲 美国(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 12
-      - 🇰🇷 韩国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 10
-      - 🇺🇲 美国(开眼看世界) 11
-      - 🇷🇺 俄罗斯(开眼看世界) 2
-      - 欧洲(开眼看世界) 11
-      - 🇨🇦 加拿大(开眼看世界) 13
-      - 🇨🇦 加拿大(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 15
-      - 欧洲(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 16
-      - 🇫🇷 法国(开眼看世界)
-      - 🇫🇷 法国(开眼看世界) 2
-      - 欧洲(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 15
-      - 🇷🇺 俄罗斯(开眼看世界) 3
-      - 🇺🇲 美国(开眼看世界) 16
-      - 欧洲(开眼看世界) 14
-      - 🇨🇦 加拿大(开眼看世界) 17
-      - 欧洲(开眼看世界) 15
-      - 🇨🇦 加拿大(开眼看世界) 18
-      - 欧洲(开眼看世界) 16
-      - 🇨🇦 加拿大(开眼看世界) 19
-      - 🇨🇦 加拿大(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 21
-      - 🇺🇲 美国(开眼看世界) 17
-      - 欧洲(开眼看世界) 17
-      - 欧洲(开眼看世界) 18
-      - 欧洲(开眼看世界) 19
-      - 🇺🇲 美国(开眼看世界) 18
-      - 🇺🇲 美国(开眼看世界) 19
-      - 欧洲(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 22
-      - 欧洲(开眼看世界) 21
-      - 🇷🇺 俄罗斯(开眼看世界) 4
-      - 欧洲(开眼看世界) 22
-      - 🇨🇦 加拿大(开眼看世界) 23
-      - 欧洲(开眼看世界) 23
-      - 🇷🇺 俄罗斯(开眼看世界) 5
-      - 🇺🇲 美国(开眼看世界) 20
-      - 欧洲(开眼看世界) 24
-      - 🇨🇦 加拿大(开眼看世界) 24
-      - 🇮🇹 意大利(开眼看世界)
-      - 欧洲(开眼看世界) 25
-      - 欧洲(开眼看世界) 26
-      - 欧洲(开眼看世界) 27
-      - 罗马(开眼看世界)
-      - 欧洲(开眼看世界) 28
-      - 罗马(开眼看世界) 2
-      - 欧洲(开眼看世界) 29
-      - 🇨🇦 加拿大(开眼看世界) 25
-      - 欧洲(开眼看世界) 30
+      - 🇷🇺 俄罗斯(乌克兰万岁！)
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 2
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 3
+      - 🇰🇷 韩国(乌克兰万岁！)
+      - 🇰🇷 韩国(乌克兰万岁！) 2
+      - 🇰🇷 韩国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！)
+      - 🇺🇸 美国(乌克兰万岁！) 2
+      - 🇺🇸 美国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！) 4
+      - 🇺🇸 美国(乌克兰万岁！) 5
+      - 🇺🇸 美国(乌克兰万岁！) 6
+      - 🇺🇸 美国(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！)
+      - 🇪🇺 欧洲(乌克兰万岁！) 2
+      - 🇪🇺 欧洲(乌克兰万岁！) 3
+      - 🇪🇺 欧洲(乌克兰万岁！) 4
+      - 🇪🇺 欧洲(乌克兰万岁！) 5
+      - 🇪🇺 欧洲(乌克兰万岁！) 6
+      - 🇪🇺 欧洲(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！) 8
+      - 🇪🇺 欧洲(乌克兰万岁！) 9
+      - 🇪🇺 欧洲(乌克兰万岁！) 10
+      - 🇪🇺 欧洲(乌克兰万岁！) 11
+      - 🇪🇺 欧洲(乌克兰万岁！) 12
+      - 🇪🇺 欧洲(乌克兰万岁！) 13
+      - 🇪🇺 欧洲(乌克兰万岁！) 14
+      - 🇪🇺 欧洲(乌克兰万岁！) 15
+      - 🇪🇺 欧洲(乌克兰万岁！) 16
+      - 🇪🇺 欧洲(乌克兰万岁！) 17
+      - 🇪🇺 欧洲(乌克兰万岁！) 18
+      - 🇪🇺 欧洲(乌克兰万岁！) 19
+      - 🇪🇺 欧洲(乌克兰万岁！) 20
+      - 🇪🇺 欧洲(乌克兰万岁！) 21
+      - 🇪🇺 欧洲(乌克兰万岁！) 22
+      - 🇪🇺 欧洲(乌克兰万岁！) 23
+      - 🇪🇺 欧洲(乌克兰万岁！) 24
+      - 🇪🇺 欧洲(乌克兰万岁！) 25
+      - 🇪🇺 欧洲(乌克兰万岁！) 26
+      - 🇪🇺 欧洲(乌克兰万岁！) 27
+      - 🇪🇺 欧洲(乌克兰万岁！) 28
+      - 🇪🇺 欧洲(乌克兰万岁！) 29
+      - 🇪🇺 欧洲(乌克兰万岁！) 30
+      - 🇪🇺 欧洲(乌克兰万岁！) 31
+      - 🇪🇺 欧洲(乌克兰万岁！) 32
+      - 🇪🇺 欧洲(乌克兰万岁！) 33
+      - 🇪🇺 欧洲(乌克兰万岁！) 34
+      - 🇪🇺 欧洲(乌克兰万岁！) 35
+      - 🇪🇺 欧洲(乌克兰万岁！) 36
+      - 🇪🇺 欧洲(乌克兰万岁！) 37
+      - 🇪🇺 欧洲(乌克兰万岁！) 38
+      - 🇪🇺 欧洲(乌克兰万岁！) 39
+      - 🇪🇺 欧洲(乌克兰万岁！) 40
+      - 🇪🇺 欧洲(乌克兰万岁！) 41
+      - 🇪🇺 欧洲(乌克兰万岁！) 42
+      - 🇪🇺 欧洲(乌克兰万岁！) 43
+      - 🇪🇺 欧洲(乌克兰万岁！) 44
+      - 🇪🇺 欧洲(乌克兰万岁！) 45
+      - 🇪🇺 欧洲(乌克兰万岁！) 46
+      - 🇪🇺 欧洲(乌克兰万岁！) 47
+      - 🇪🇺 欧洲(乌克兰万岁！) 48
+      - 🇪🇺 欧洲(乌克兰万岁！) 49
+      - 🇪🇺 欧洲(乌克兰万岁！) 50
+      - 🇪🇺 欧洲(乌克兰万岁！) 51
+      - 🇪🇺 欧洲(乌克兰万岁！) 52
+      - 🇪🇺 欧洲(乌克兰万岁！) 53
+      - 🇪🇺 欧洲(乌克兰万岁！) 54
+      - 🇪🇺 欧洲(乌克兰万岁！) 55
+      - 🇪🇺 欧洲(乌克兰万岁！) 56
+      - 🇪🇺 欧洲(乌克兰万岁！) 57
+      - 🇪🇺 欧洲(乌克兰万岁！) 58
+      - 🇪🇺 欧洲(乌克兰万岁！) 59
+      - 🇪🇺 欧洲(乌克兰万岁！) 60
+      - 🇪🇺 欧洲(乌克兰万岁！) 61
+      - 🇪🇺 欧洲(乌克兰万岁！) 62
+      - 🇪🇺 欧洲(乌克兰万岁！) 63
+      - 🇪🇺 欧洲(乌克兰万岁！) 64
+      - 🇪🇺 欧洲(乌克兰万岁！) 65
+      - 🇪🇺 欧洲(乌克兰万岁！) 66
+      - 🇪🇺 欧洲(乌克兰万岁！) 67
+      - 🇪🇺 欧洲(乌克兰万岁！) 68
+      - 🇪🇺 欧洲(乌克兰万岁！) 69
+      - 🇪🇺 欧洲(乌克兰万岁！) 70
+      - 🇪🇺 欧洲(乌克兰万岁！) 71
+      - 🇪🇺 欧洲(乌克兰万岁！) 72
+      - 🇪🇺 欧洲(乌克兰万岁！) 73
+      - 🇪🇺 欧洲(乌克兰万岁！) 74
+      - 🇪🇺 欧洲(乌克兰万岁！) 75
+      - 🇪🇺 欧洲(乌克兰万岁！) 76
+      - 🇪🇺 欧洲(乌克兰万岁！) 77
+      - 🇪🇺 欧洲(乌克兰万岁！) 78
+      - 🇪🇺 欧洲(乌克兰万岁！) 79
+      - 🇪🇺 欧洲(乌克兰万岁！) 80
+      - 🇪🇺 欧洲(乌克兰万岁！) 81
+      - 🇪🇺 欧洲(乌克兰万岁！) 82
+      - 🇪🇺 欧洲(乌克兰万岁！) 83
+      - 🇪🇺 欧洲(乌克兰万岁！) 84
+      - 🇪🇺 欧洲(乌克兰万岁！) 85
+      - 🇪🇺 欧洲(乌克兰万岁！) 86
+      - 🇪🇺 欧洲(乌克兰万岁！) 87
+      - 🇪🇺 欧洲(乌克兰万岁！) 88
+      - 🇪🇺 欧洲(乌克兰万岁！) 89
+      - 🇪🇺 欧洲(乌克兰万岁！) 90
+      - 🇯🇵 日本(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！) 2
+      - 🇭🇰 香港(乌克兰万岁！) 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 欧洲(开眼看世界)
-      - 欧洲(开眼看世界) 2
-      - 欧洲(开眼看世界) 3
-      - 欧洲(开眼看世界) 4
-      - 欧洲(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界) 3
-      - 欧洲(开眼看世界) 6
-      - 欧洲(开眼看世界) 7
-      - 🇷🇺 俄罗斯(开眼看世界)
-      - 🇭🇰 香港(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 3
-      - 欧洲(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 4
-      - 🇺🇲 美国(开眼看世界) 4
-      - 🇨🇦 加拿大(开眼看世界) 5
-      - 欧洲(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 7
-      - 🇨🇦 加拿大(开眼看世界) 8
-      - 🇺🇲 美国(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 9
-      - 🇨🇦 加拿大(开眼看世界) 10
-      - 欧洲(开眼看世界) 10
-      - 🇨🇦 加拿大(开眼看世界) 11
-      - 🇺🇲 美国(开眼看世界) 7
-      - 🇺🇲 美国(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 12
-      - 🇰🇷 韩国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 10
-      - 🇺🇲 美国(开眼看世界) 11
-      - 🇷🇺 俄罗斯(开眼看世界) 2
-      - 欧洲(开眼看世界) 11
-      - 🇨🇦 加拿大(开眼看世界) 13
-      - 🇨🇦 加拿大(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 15
-      - 欧洲(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 16
-      - 🇫🇷 法国(开眼看世界)
-      - 🇫🇷 法国(开眼看世界) 2
-      - 欧洲(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 15
-      - 🇷🇺 俄罗斯(开眼看世界) 3
-      - 🇺🇲 美国(开眼看世界) 16
-      - 欧洲(开眼看世界) 14
-      - 🇨🇦 加拿大(开眼看世界) 17
-      - 欧洲(开眼看世界) 15
-      - 🇨🇦 加拿大(开眼看世界) 18
-      - 欧洲(开眼看世界) 16
-      - 🇨🇦 加拿大(开眼看世界) 19
-      - 🇨🇦 加拿大(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 21
-      - 🇺🇲 美国(开眼看世界) 17
-      - 欧洲(开眼看世界) 17
-      - 欧洲(开眼看世界) 18
-      - 欧洲(开眼看世界) 19
-      - 🇺🇲 美国(开眼看世界) 18
-      - 🇺🇲 美国(开眼看世界) 19
-      - 欧洲(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 22
-      - 欧洲(开眼看世界) 21
-      - 🇷🇺 俄罗斯(开眼看世界) 4
-      - 欧洲(开眼看世界) 22
-      - 🇨🇦 加拿大(开眼看世界) 23
-      - 欧洲(开眼看世界) 23
-      - 🇷🇺 俄罗斯(开眼看世界) 5
-      - 🇺🇲 美国(开眼看世界) 20
-      - 欧洲(开眼看世界) 24
-      - 🇨🇦 加拿大(开眼看世界) 24
-      - 🇮🇹 意大利(开眼看世界)
-      - 欧洲(开眼看世界) 25
-      - 欧洲(开眼看世界) 26
-      - 欧洲(开眼看世界) 27
-      - 罗马(开眼看世界)
-      - 欧洲(开眼看世界) 28
-      - 罗马(开眼看世界) 2
-      - 欧洲(开眼看世界) 29
-      - 🇨🇦 加拿大(开眼看世界) 25
-      - 欧洲(开眼看世界) 30
+      - 🇷🇺 俄罗斯(乌克兰万岁！)
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 2
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 3
+      - 🇰🇷 韩国(乌克兰万岁！)
+      - 🇰🇷 韩国(乌克兰万岁！) 2
+      - 🇰🇷 韩国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！)
+      - 🇺🇸 美国(乌克兰万岁！) 2
+      - 🇺🇸 美国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！) 4
+      - 🇺🇸 美国(乌克兰万岁！) 5
+      - 🇺🇸 美国(乌克兰万岁！) 6
+      - 🇺🇸 美国(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！)
+      - 🇪🇺 欧洲(乌克兰万岁！) 2
+      - 🇪🇺 欧洲(乌克兰万岁！) 3
+      - 🇪🇺 欧洲(乌克兰万岁！) 4
+      - 🇪🇺 欧洲(乌克兰万岁！) 5
+      - 🇪🇺 欧洲(乌克兰万岁！) 6
+      - 🇪🇺 欧洲(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！) 8
+      - 🇪🇺 欧洲(乌克兰万岁！) 9
+      - 🇪🇺 欧洲(乌克兰万岁！) 10
+      - 🇪🇺 欧洲(乌克兰万岁！) 11
+      - 🇪🇺 欧洲(乌克兰万岁！) 12
+      - 🇪🇺 欧洲(乌克兰万岁！) 13
+      - 🇪🇺 欧洲(乌克兰万岁！) 14
+      - 🇪🇺 欧洲(乌克兰万岁！) 15
+      - 🇪🇺 欧洲(乌克兰万岁！) 16
+      - 🇪🇺 欧洲(乌克兰万岁！) 17
+      - 🇪🇺 欧洲(乌克兰万岁！) 18
+      - 🇪🇺 欧洲(乌克兰万岁！) 19
+      - 🇪🇺 欧洲(乌克兰万岁！) 20
+      - 🇪🇺 欧洲(乌克兰万岁！) 21
+      - 🇪🇺 欧洲(乌克兰万岁！) 22
+      - 🇪🇺 欧洲(乌克兰万岁！) 23
+      - 🇪🇺 欧洲(乌克兰万岁！) 24
+      - 🇪🇺 欧洲(乌克兰万岁！) 25
+      - 🇪🇺 欧洲(乌克兰万岁！) 26
+      - 🇪🇺 欧洲(乌克兰万岁！) 27
+      - 🇪🇺 欧洲(乌克兰万岁！) 28
+      - 🇪🇺 欧洲(乌克兰万岁！) 29
+      - 🇪🇺 欧洲(乌克兰万岁！) 30
+      - 🇪🇺 欧洲(乌克兰万岁！) 31
+      - 🇪🇺 欧洲(乌克兰万岁！) 32
+      - 🇪🇺 欧洲(乌克兰万岁！) 33
+      - 🇪🇺 欧洲(乌克兰万岁！) 34
+      - 🇪🇺 欧洲(乌克兰万岁！) 35
+      - 🇪🇺 欧洲(乌克兰万岁！) 36
+      - 🇪🇺 欧洲(乌克兰万岁！) 37
+      - 🇪🇺 欧洲(乌克兰万岁！) 38
+      - 🇪🇺 欧洲(乌克兰万岁！) 39
+      - 🇪🇺 欧洲(乌克兰万岁！) 40
+      - 🇪🇺 欧洲(乌克兰万岁！) 41
+      - 🇪🇺 欧洲(乌克兰万岁！) 42
+      - 🇪🇺 欧洲(乌克兰万岁！) 43
+      - 🇪🇺 欧洲(乌克兰万岁！) 44
+      - 🇪🇺 欧洲(乌克兰万岁！) 45
+      - 🇪🇺 欧洲(乌克兰万岁！) 46
+      - 🇪🇺 欧洲(乌克兰万岁！) 47
+      - 🇪🇺 欧洲(乌克兰万岁！) 48
+      - 🇪🇺 欧洲(乌克兰万岁！) 49
+      - 🇪🇺 欧洲(乌克兰万岁！) 50
+      - 🇪🇺 欧洲(乌克兰万岁！) 51
+      - 🇪🇺 欧洲(乌克兰万岁！) 52
+      - 🇪🇺 欧洲(乌克兰万岁！) 53
+      - 🇪🇺 欧洲(乌克兰万岁！) 54
+      - 🇪🇺 欧洲(乌克兰万岁！) 55
+      - 🇪🇺 欧洲(乌克兰万岁！) 56
+      - 🇪🇺 欧洲(乌克兰万岁！) 57
+      - 🇪🇺 欧洲(乌克兰万岁！) 58
+      - 🇪🇺 欧洲(乌克兰万岁！) 59
+      - 🇪🇺 欧洲(乌克兰万岁！) 60
+      - 🇪🇺 欧洲(乌克兰万岁！) 61
+      - 🇪🇺 欧洲(乌克兰万岁！) 62
+      - 🇪🇺 欧洲(乌克兰万岁！) 63
+      - 🇪🇺 欧洲(乌克兰万岁！) 64
+      - 🇪🇺 欧洲(乌克兰万岁！) 65
+      - 🇪🇺 欧洲(乌克兰万岁！) 66
+      - 🇪🇺 欧洲(乌克兰万岁！) 67
+      - 🇪🇺 欧洲(乌克兰万岁！) 68
+      - 🇪🇺 欧洲(乌克兰万岁！) 69
+      - 🇪🇺 欧洲(乌克兰万岁！) 70
+      - 🇪🇺 欧洲(乌克兰万岁！) 71
+      - 🇪🇺 欧洲(乌克兰万岁！) 72
+      - 🇪🇺 欧洲(乌克兰万岁！) 73
+      - 🇪🇺 欧洲(乌克兰万岁！) 74
+      - 🇪🇺 欧洲(乌克兰万岁！) 75
+      - 🇪🇺 欧洲(乌克兰万岁！) 76
+      - 🇪🇺 欧洲(乌克兰万岁！) 77
+      - 🇪🇺 欧洲(乌克兰万岁！) 78
+      - 🇪🇺 欧洲(乌克兰万岁！) 79
+      - 🇪🇺 欧洲(乌克兰万岁！) 80
+      - 🇪🇺 欧洲(乌克兰万岁！) 81
+      - 🇪🇺 欧洲(乌克兰万岁！) 82
+      - 🇪🇺 欧洲(乌克兰万岁！) 83
+      - 🇪🇺 欧洲(乌克兰万岁！) 84
+      - 🇪🇺 欧洲(乌克兰万岁！) 85
+      - 🇪🇺 欧洲(乌克兰万岁！) 86
+      - 🇪🇺 欧洲(乌克兰万岁！) 87
+      - 🇪🇺 欧洲(乌克兰万岁！) 88
+      - 🇪🇺 欧洲(乌克兰万岁！) 89
+      - 🇪🇺 欧洲(乌克兰万岁！) 90
+      - 🇯🇵 日本(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！) 2
+      - 🇭🇰 香港(乌克兰万岁！) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(开眼看世界)
-      - 欧洲(开眼看世界) 2
-      - 欧洲(开眼看世界) 3
-      - 欧洲(开眼看世界) 4
-      - 欧洲(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界) 3
-      - 欧洲(开眼看世界) 6
-      - 欧洲(开眼看世界) 7
-      - 🇷🇺 俄罗斯(开眼看世界)
-      - 🇭🇰 香港(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 3
-      - 欧洲(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 4
-      - 🇺🇲 美国(开眼看世界) 4
-      - 🇨🇦 加拿大(开眼看世界) 5
-      - 欧洲(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 7
-      - 🇨🇦 加拿大(开眼看世界) 8
-      - 🇺🇲 美国(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 9
-      - 🇨🇦 加拿大(开眼看世界) 10
-      - 欧洲(开眼看世界) 10
-      - 🇨🇦 加拿大(开眼看世界) 11
-      - 🇺🇲 美国(开眼看世界) 7
-      - 🇺🇲 美国(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 12
-      - 🇰🇷 韩国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 10
-      - 🇺🇲 美国(开眼看世界) 11
-      - 🇷🇺 俄罗斯(开眼看世界) 2
-      - 欧洲(开眼看世界) 11
-      - 🇨🇦 加拿大(开眼看世界) 13
-      - 🇨🇦 加拿大(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 15
-      - 欧洲(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 16
-      - 🇫🇷 法国(开眼看世界)
-      - 🇫🇷 法国(开眼看世界) 2
-      - 欧洲(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 15
-      - 🇷🇺 俄罗斯(开眼看世界) 3
-      - 🇺🇲 美国(开眼看世界) 16
-      - 欧洲(开眼看世界) 14
-      - 🇨🇦 加拿大(开眼看世界) 17
-      - 欧洲(开眼看世界) 15
-      - 🇨🇦 加拿大(开眼看世界) 18
-      - 欧洲(开眼看世界) 16
-      - 🇨🇦 加拿大(开眼看世界) 19
-      - 🇨🇦 加拿大(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 21
-      - 🇺🇲 美国(开眼看世界) 17
-      - 欧洲(开眼看世界) 17
-      - 欧洲(开眼看世界) 18
-      - 欧洲(开眼看世界) 19
-      - 🇺🇲 美国(开眼看世界) 18
-      - 🇺🇲 美国(开眼看世界) 19
-      - 欧洲(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 22
-      - 欧洲(开眼看世界) 21
-      - 🇷🇺 俄罗斯(开眼看世界) 4
-      - 欧洲(开眼看世界) 22
-      - 🇨🇦 加拿大(开眼看世界) 23
-      - 欧洲(开眼看世界) 23
-      - 🇷🇺 俄罗斯(开眼看世界) 5
-      - 🇺🇲 美国(开眼看世界) 20
-      - 欧洲(开眼看世界) 24
-      - 🇨🇦 加拿大(开眼看世界) 24
-      - 🇮🇹 意大利(开眼看世界)
-      - 欧洲(开眼看世界) 25
-      - 欧洲(开眼看世界) 26
-      - 欧洲(开眼看世界) 27
-      - 罗马(开眼看世界)
-      - 欧洲(开眼看世界) 28
-      - 罗马(开眼看世界) 2
-      - 欧洲(开眼看世界) 29
-      - 🇨🇦 加拿大(开眼看世界) 25
-      - 欧洲(开眼看世界) 30
+      - 🇷🇺 俄罗斯(乌克兰万岁！)
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 2
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 3
+      - 🇰🇷 韩国(乌克兰万岁！)
+      - 🇰🇷 韩国(乌克兰万岁！) 2
+      - 🇰🇷 韩国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！)
+      - 🇺🇸 美国(乌克兰万岁！) 2
+      - 🇺🇸 美国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！) 4
+      - 🇺🇸 美国(乌克兰万岁！) 5
+      - 🇺🇸 美国(乌克兰万岁！) 6
+      - 🇺🇸 美国(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！)
+      - 🇪🇺 欧洲(乌克兰万岁！) 2
+      - 🇪🇺 欧洲(乌克兰万岁！) 3
+      - 🇪🇺 欧洲(乌克兰万岁！) 4
+      - 🇪🇺 欧洲(乌克兰万岁！) 5
+      - 🇪🇺 欧洲(乌克兰万岁！) 6
+      - 🇪🇺 欧洲(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！) 8
+      - 🇪🇺 欧洲(乌克兰万岁！) 9
+      - 🇪🇺 欧洲(乌克兰万岁！) 10
+      - 🇪🇺 欧洲(乌克兰万岁！) 11
+      - 🇪🇺 欧洲(乌克兰万岁！) 12
+      - 🇪🇺 欧洲(乌克兰万岁！) 13
+      - 🇪🇺 欧洲(乌克兰万岁！) 14
+      - 🇪🇺 欧洲(乌克兰万岁！) 15
+      - 🇪🇺 欧洲(乌克兰万岁！) 16
+      - 🇪🇺 欧洲(乌克兰万岁！) 17
+      - 🇪🇺 欧洲(乌克兰万岁！) 18
+      - 🇪🇺 欧洲(乌克兰万岁！) 19
+      - 🇪🇺 欧洲(乌克兰万岁！) 20
+      - 🇪🇺 欧洲(乌克兰万岁！) 21
+      - 🇪🇺 欧洲(乌克兰万岁！) 22
+      - 🇪🇺 欧洲(乌克兰万岁！) 23
+      - 🇪🇺 欧洲(乌克兰万岁！) 24
+      - 🇪🇺 欧洲(乌克兰万岁！) 25
+      - 🇪🇺 欧洲(乌克兰万岁！) 26
+      - 🇪🇺 欧洲(乌克兰万岁！) 27
+      - 🇪🇺 欧洲(乌克兰万岁！) 28
+      - 🇪🇺 欧洲(乌克兰万岁！) 29
+      - 🇪🇺 欧洲(乌克兰万岁！) 30
+      - 🇪🇺 欧洲(乌克兰万岁！) 31
+      - 🇪🇺 欧洲(乌克兰万岁！) 32
+      - 🇪🇺 欧洲(乌克兰万岁！) 33
+      - 🇪🇺 欧洲(乌克兰万岁！) 34
+      - 🇪🇺 欧洲(乌克兰万岁！) 35
+      - 🇪🇺 欧洲(乌克兰万岁！) 36
+      - 🇪🇺 欧洲(乌克兰万岁！) 37
+      - 🇪🇺 欧洲(乌克兰万岁！) 38
+      - 🇪🇺 欧洲(乌克兰万岁！) 39
+      - 🇪🇺 欧洲(乌克兰万岁！) 40
+      - 🇪🇺 欧洲(乌克兰万岁！) 41
+      - 🇪🇺 欧洲(乌克兰万岁！) 42
+      - 🇪🇺 欧洲(乌克兰万岁！) 43
+      - 🇪🇺 欧洲(乌克兰万岁！) 44
+      - 🇪🇺 欧洲(乌克兰万岁！) 45
+      - 🇪🇺 欧洲(乌克兰万岁！) 46
+      - 🇪🇺 欧洲(乌克兰万岁！) 47
+      - 🇪🇺 欧洲(乌克兰万岁！) 48
+      - 🇪🇺 欧洲(乌克兰万岁！) 49
+      - 🇪🇺 欧洲(乌克兰万岁！) 50
+      - 🇪🇺 欧洲(乌克兰万岁！) 51
+      - 🇪🇺 欧洲(乌克兰万岁！) 52
+      - 🇪🇺 欧洲(乌克兰万岁！) 53
+      - 🇪🇺 欧洲(乌克兰万岁！) 54
+      - 🇪🇺 欧洲(乌克兰万岁！) 55
+      - 🇪🇺 欧洲(乌克兰万岁！) 56
+      - 🇪🇺 欧洲(乌克兰万岁！) 57
+      - 🇪🇺 欧洲(乌克兰万岁！) 58
+      - 🇪🇺 欧洲(乌克兰万岁！) 59
+      - 🇪🇺 欧洲(乌克兰万岁！) 60
+      - 🇪🇺 欧洲(乌克兰万岁！) 61
+      - 🇪🇺 欧洲(乌克兰万岁！) 62
+      - 🇪🇺 欧洲(乌克兰万岁！) 63
+      - 🇪🇺 欧洲(乌克兰万岁！) 64
+      - 🇪🇺 欧洲(乌克兰万岁！) 65
+      - 🇪🇺 欧洲(乌克兰万岁！) 66
+      - 🇪🇺 欧洲(乌克兰万岁！) 67
+      - 🇪🇺 欧洲(乌克兰万岁！) 68
+      - 🇪🇺 欧洲(乌克兰万岁！) 69
+      - 🇪🇺 欧洲(乌克兰万岁！) 70
+      - 🇪🇺 欧洲(乌克兰万岁！) 71
+      - 🇪🇺 欧洲(乌克兰万岁！) 72
+      - 🇪🇺 欧洲(乌克兰万岁！) 73
+      - 🇪🇺 欧洲(乌克兰万岁！) 74
+      - 🇪🇺 欧洲(乌克兰万岁！) 75
+      - 🇪🇺 欧洲(乌克兰万岁！) 76
+      - 🇪🇺 欧洲(乌克兰万岁！) 77
+      - 🇪🇺 欧洲(乌克兰万岁！) 78
+      - 🇪🇺 欧洲(乌克兰万岁！) 79
+      - 🇪🇺 欧洲(乌克兰万岁！) 80
+      - 🇪🇺 欧洲(乌克兰万岁！) 81
+      - 🇪🇺 欧洲(乌克兰万岁！) 82
+      - 🇪🇺 欧洲(乌克兰万岁！) 83
+      - 🇪🇺 欧洲(乌克兰万岁！) 84
+      - 🇪🇺 欧洲(乌克兰万岁！) 85
+      - 🇪🇺 欧洲(乌克兰万岁！) 86
+      - 🇪🇺 欧洲(乌克兰万岁！) 87
+      - 🇪🇺 欧洲(乌克兰万岁！) 88
+      - 🇪🇺 欧洲(乌克兰万岁！) 89
+      - 🇪🇺 欧洲(乌克兰万岁！) 90
+      - 🇯🇵 日本(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！) 2
+      - 🇭🇰 香港(乌克兰万岁！) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -773,93 +810,113 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(开眼看世界)
-      - 欧洲(开眼看世界) 2
-      - 欧洲(开眼看世界) 3
-      - 欧洲(开眼看世界) 4
-      - 欧洲(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 2
-      - 🇺🇲 美国(开眼看世界) 3
-      - 欧洲(开眼看世界) 6
-      - 欧洲(开眼看世界) 7
-      - 🇷🇺 俄罗斯(开眼看世界)
-      - 🇭🇰 香港(开眼看世界)
-      - 🇨🇦 加拿大(开眼看世界) 3
-      - 欧洲(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 4
-      - 🇺🇲 美国(开眼看世界) 4
-      - 🇨🇦 加拿大(开眼看世界) 5
-      - 欧洲(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 5
-      - 🇨🇦 加拿大(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 7
-      - 🇨🇦 加拿大(开眼看世界) 8
-      - 🇺🇲 美国(开眼看世界) 6
-      - 🇨🇦 加拿大(开眼看世界) 9
-      - 🇨🇦 加拿大(开眼看世界) 10
-      - 欧洲(开眼看世界) 10
-      - 🇨🇦 加拿大(开眼看世界) 11
-      - 🇺🇲 美国(开眼看世界) 7
-      - 🇺🇲 美国(开眼看世界) 8
-      - 🇨🇦 加拿大(开眼看世界) 12
-      - 🇰🇷 韩国(开眼看世界)
-      - 🇺🇲 美国(开眼看世界) 9
-      - 🇺🇲 美国(开眼看世界) 10
-      - 🇺🇲 美国(开眼看世界) 11
-      - 🇷🇺 俄罗斯(开眼看世界) 2
-      - 欧洲(开眼看世界) 11
-      - 🇨🇦 加拿大(开眼看世界) 13
-      - 🇨🇦 加拿大(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 15
-      - 欧洲(开眼看世界) 12
-      - 🇨🇦 加拿大(开眼看世界) 16
-      - 🇫🇷 法国(开眼看世界)
-      - 🇫🇷 法国(开眼看世界) 2
-      - 欧洲(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 13
-      - 🇺🇲 美国(开眼看世界) 14
-      - 🇺🇲 美国(开眼看世界) 15
-      - 🇷🇺 俄罗斯(开眼看世界) 3
-      - 🇺🇲 美国(开眼看世界) 16
-      - 欧洲(开眼看世界) 14
-      - 🇨🇦 加拿大(开眼看世界) 17
-      - 欧洲(开眼看世界) 15
-      - 🇨🇦 加拿大(开眼看世界) 18
-      - 欧洲(开眼看世界) 16
-      - 🇨🇦 加拿大(开眼看世界) 19
-      - 🇨🇦 加拿大(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 21
-      - 🇺🇲 美国(开眼看世界) 17
-      - 欧洲(开眼看世界) 17
-      - 欧洲(开眼看世界) 18
-      - 欧洲(开眼看世界) 19
-      - 🇺🇲 美国(开眼看世界) 18
-      - 🇺🇲 美国(开眼看世界) 19
-      - 欧洲(开眼看世界) 20
-      - 🇨🇦 加拿大(开眼看世界) 22
-      - 欧洲(开眼看世界) 21
-      - 🇷🇺 俄罗斯(开眼看世界) 4
-      - 欧洲(开眼看世界) 22
-      - 🇨🇦 加拿大(开眼看世界) 23
-      - 欧洲(开眼看世界) 23
-      - 🇷🇺 俄罗斯(开眼看世界) 5
-      - 🇺🇲 美国(开眼看世界) 20
-      - 欧洲(开眼看世界) 24
-      - 🇨🇦 加拿大(开眼看世界) 24
-      - 🇮🇹 意大利(开眼看世界)
-      - 欧洲(开眼看世界) 25
-      - 欧洲(开眼看世界) 26
-      - 欧洲(开眼看世界) 27
-      - 罗马(开眼看世界)
-      - 欧洲(开眼看世界) 28
-      - 罗马(开眼看世界) 2
-      - 欧洲(开眼看世界) 29
-      - 🇨🇦 加拿大(开眼看世界) 25
-      - 欧洲(开眼看世界) 30
+      - 🇷🇺 俄罗斯(乌克兰万岁！)
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 2
+      - 🇷🇺 俄罗斯(乌克兰万岁！) 3
+      - 🇰🇷 韩国(乌克兰万岁！)
+      - 🇰🇷 韩国(乌克兰万岁！) 2
+      - 🇰🇷 韩国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！)
+      - 🇺🇸 美国(乌克兰万岁！) 2
+      - 🇺🇸 美国(乌克兰万岁！) 3
+      - 🇺🇸 美国(乌克兰万岁！) 4
+      - 🇺🇸 美国(乌克兰万岁！) 5
+      - 🇺🇸 美国(乌克兰万岁！) 6
+      - 🇺🇸 美国(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！)
+      - 🇪🇺 欧洲(乌克兰万岁！) 2
+      - 🇪🇺 欧洲(乌克兰万岁！) 3
+      - 🇪🇺 欧洲(乌克兰万岁！) 4
+      - 🇪🇺 欧洲(乌克兰万岁！) 5
+      - 🇪🇺 欧洲(乌克兰万岁！) 6
+      - 🇪🇺 欧洲(乌克兰万岁！) 7
+      - 🇪🇺 欧洲(乌克兰万岁！) 8
+      - 🇪🇺 欧洲(乌克兰万岁！) 9
+      - 🇪🇺 欧洲(乌克兰万岁！) 10
+      - 🇪🇺 欧洲(乌克兰万岁！) 11
+      - 🇪🇺 欧洲(乌克兰万岁！) 12
+      - 🇪🇺 欧洲(乌克兰万岁！) 13
+      - 🇪🇺 欧洲(乌克兰万岁！) 14
+      - 🇪🇺 欧洲(乌克兰万岁！) 15
+      - 🇪🇺 欧洲(乌克兰万岁！) 16
+      - 🇪🇺 欧洲(乌克兰万岁！) 17
+      - 🇪🇺 欧洲(乌克兰万岁！) 18
+      - 🇪🇺 欧洲(乌克兰万岁！) 19
+      - 🇪🇺 欧洲(乌克兰万岁！) 20
+      - 🇪🇺 欧洲(乌克兰万岁！) 21
+      - 🇪🇺 欧洲(乌克兰万岁！) 22
+      - 🇪🇺 欧洲(乌克兰万岁！) 23
+      - 🇪🇺 欧洲(乌克兰万岁！) 24
+      - 🇪🇺 欧洲(乌克兰万岁！) 25
+      - 🇪🇺 欧洲(乌克兰万岁！) 26
+      - 🇪🇺 欧洲(乌克兰万岁！) 27
+      - 🇪🇺 欧洲(乌克兰万岁！) 28
+      - 🇪🇺 欧洲(乌克兰万岁！) 29
+      - 🇪🇺 欧洲(乌克兰万岁！) 30
+      - 🇪🇺 欧洲(乌克兰万岁！) 31
+      - 🇪🇺 欧洲(乌克兰万岁！) 32
+      - 🇪🇺 欧洲(乌克兰万岁！) 33
+      - 🇪🇺 欧洲(乌克兰万岁！) 34
+      - 🇪🇺 欧洲(乌克兰万岁！) 35
+      - 🇪🇺 欧洲(乌克兰万岁！) 36
+      - 🇪🇺 欧洲(乌克兰万岁！) 37
+      - 🇪🇺 欧洲(乌克兰万岁！) 38
+      - 🇪🇺 欧洲(乌克兰万岁！) 39
+      - 🇪🇺 欧洲(乌克兰万岁！) 40
+      - 🇪🇺 欧洲(乌克兰万岁！) 41
+      - 🇪🇺 欧洲(乌克兰万岁！) 42
+      - 🇪🇺 欧洲(乌克兰万岁！) 43
+      - 🇪🇺 欧洲(乌克兰万岁！) 44
+      - 🇪🇺 欧洲(乌克兰万岁！) 45
+      - 🇪🇺 欧洲(乌克兰万岁！) 46
+      - 🇪🇺 欧洲(乌克兰万岁！) 47
+      - 🇪🇺 欧洲(乌克兰万岁！) 48
+      - 🇪🇺 欧洲(乌克兰万岁！) 49
+      - 🇪🇺 欧洲(乌克兰万岁！) 50
+      - 🇪🇺 欧洲(乌克兰万岁！) 51
+      - 🇪🇺 欧洲(乌克兰万岁！) 52
+      - 🇪🇺 欧洲(乌克兰万岁！) 53
+      - 🇪🇺 欧洲(乌克兰万岁！) 54
+      - 🇪🇺 欧洲(乌克兰万岁！) 55
+      - 🇪🇺 欧洲(乌克兰万岁！) 56
+      - 🇪🇺 欧洲(乌克兰万岁！) 57
+      - 🇪🇺 欧洲(乌克兰万岁！) 58
+      - 🇪🇺 欧洲(乌克兰万岁！) 59
+      - 🇪🇺 欧洲(乌克兰万岁！) 60
+      - 🇪🇺 欧洲(乌克兰万岁！) 61
+      - 🇪🇺 欧洲(乌克兰万岁！) 62
+      - 🇪🇺 欧洲(乌克兰万岁！) 63
+      - 🇪🇺 欧洲(乌克兰万岁！) 64
+      - 🇪🇺 欧洲(乌克兰万岁！) 65
+      - 🇪🇺 欧洲(乌克兰万岁！) 66
+      - 🇪🇺 欧洲(乌克兰万岁！) 67
+      - 🇪🇺 欧洲(乌克兰万岁！) 68
+      - 🇪🇺 欧洲(乌克兰万岁！) 69
+      - 🇪🇺 欧洲(乌克兰万岁！) 70
+      - 🇪🇺 欧洲(乌克兰万岁！) 71
+      - 🇪🇺 欧洲(乌克兰万岁！) 72
+      - 🇪🇺 欧洲(乌克兰万岁！) 73
+      - 🇪🇺 欧洲(乌克兰万岁！) 74
+      - 🇪🇺 欧洲(乌克兰万岁！) 75
+      - 🇪🇺 欧洲(乌克兰万岁！) 76
+      - 🇪🇺 欧洲(乌克兰万岁！) 77
+      - 🇪🇺 欧洲(乌克兰万岁！) 78
+      - 🇪🇺 欧洲(乌克兰万岁！) 79
+      - 🇪🇺 欧洲(乌克兰万岁！) 80
+      - 🇪🇺 欧洲(乌克兰万岁！) 81
+      - 🇪🇺 欧洲(乌克兰万岁！) 82
+      - 🇪🇺 欧洲(乌克兰万岁！) 83
+      - 🇪🇺 欧洲(乌克兰万岁！) 84
+      - 🇪🇺 欧洲(乌克兰万岁！) 85
+      - 🇪🇺 欧洲(乌克兰万岁！) 86
+      - 🇪🇺 欧洲(乌克兰万岁！) 87
+      - 🇪🇺 欧洲(乌克兰万岁！) 88
+      - 🇪🇺 欧洲(乌克兰万岁！) 89
+      - 🇪🇺 欧洲(乌克兰万岁！) 90
+      - 🇯🇵 日本(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！)
+      - 🇭🇰 香港(乌克兰万岁！) 2
+      - 🇭🇰 香港(乌克兰万岁！) 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -9850,37 +9907,6 @@ rules:
  - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflximg.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflximg.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxso.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxvideo.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 NETFLIX
- - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 NETFLIX
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 NETFLIX
- - IP-CIDR,23.246.0.0/18,🎥 NETFLIX,no-resolve
- - IP-CIDR,37.77.184.0/21,🎥 NETFLIX,no-resolve
- - IP-CIDR,45.57.0.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,64.120.128.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,66.197.128.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,108.175.32.0/20,🎥 NETFLIX,no-resolve
- - IP-CIDR,192.173.64.0/18,🎥 NETFLIX,no-resolve
- - IP-CIDR,198.38.96.0/19,🎥 NETFLIX,no-resolve
- - IP-CIDR,198.45.48.0/20,🎥 NETFLIX,no-resolve
- - IP-CIDR,34.210.42.111/32,🎥 NETFLIX,no-resolve
- - IP-CIDR,52.89.124.203/32,🎥 NETFLIX,no-resolve
- - IP-CIDR,54.148.37.5/32,🎥 NETFLIX,no-resolve
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
